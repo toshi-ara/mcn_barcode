@@ -12,7 +12,8 @@ export default defineConfig({
       manifest: {
         "name": "MCN barcode reader",
         "short_name": "barcode reader",
-        "start_url": "/",
+        "start_url": "/mcn_barcode/",
+        "scope": "/mcn_barcode/",
         "display": "standalone",
         "background_color": "#ffffff",
         "theme_color": "#317EFB",
